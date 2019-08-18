@@ -291,4 +291,7 @@
 
     <!-- Whether auto face unlock is enabled by default -->
     <bool name="config_autoFaceUnlockEnabledByDefault">true</bool>
+
+    <!-- Whether device has a big physical display cutout -->
+    <bool name="config_bigPhysicalDisplayCutout">true</bool>
 </resources>
