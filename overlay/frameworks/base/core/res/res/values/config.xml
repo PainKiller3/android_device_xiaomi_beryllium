@@ -217,8 +217,8 @@
 
     <!-- Height of the status bar -->
     <dimen name="status_bar_height_portrait">86.0px</dimen>
-    <dimen name="status_bar_height_landscape">24.0dp</dimen>
-    <dimen name="rounded_corner_radius_top">104px</dimen>
+    <dimen name="status_bar_height_landscape">86.0px</dimen>
+    <dimen name="rounded_corner_radius">104px</dimen>
 
     <!-- Whether device has a notch -->
     <bool name="config_haveNotch">true</bool>
