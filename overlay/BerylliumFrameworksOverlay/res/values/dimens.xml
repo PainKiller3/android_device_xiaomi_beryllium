@@ -27,12 +27,6 @@
          -->
     <dimen name="status_bar_height_portrait">86.0px</dimen>
 
-    <!-- Height of the status bar in landscape.
-         Do not read this dimen directly. Use {@link SystemBarUtils#getStatusBarHeight} instead.
-         -->
-    <dimen name="status_bar_height_landscape">24.0dp</dimen>
-
-    <!-- Radius of the software rounded corners at the top of the display in its natural
-        orientation. If zero, the value of rounded_corner_radius is used. -->
-    <dimen name="rounded_corner_radius_top">104px</dimen>
+    <!-- Default radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">40dp</dimen>
 </resources>
