@@ -61,10 +61,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/uinput-fpc.kl:system/usr/keylayout/uinput-fpc.kl \
     $(LOCAL_PATH)/keylayout/uinput-goodix.kl:system/usr/keylayout/uinput-goodix.kl
 
-# PocketMode
-PRODUCT_PACKAGES += \
-    XiaomiPocketMode
-
 #Lawnchair
 PRODUCT_PACKAGES += \
     Lawnchair \
