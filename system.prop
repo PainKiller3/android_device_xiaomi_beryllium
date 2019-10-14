@@ -6,3 +6,8 @@ ro.recovery.ui.margin_height=87
 
 # Graphics
 ro.surface_flinger.has_HDR_display=true
+
+# Zram
+ro.zram.mark_idle_delay_mins=60
+ro.zram.first_wb_delay_mins=180
+ro.zram.periodic_wb_delay_hours=24
