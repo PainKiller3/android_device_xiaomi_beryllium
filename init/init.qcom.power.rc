@@ -268,6 +268,9 @@ on enable-low-power
 
     start vendor.per_proxy
 
+    # ZRAM parameters
+    write /sys/block/zram0/disksize 1073741824
+
 on property:sys.boot_completed=1
     trigger enable-low-power
 

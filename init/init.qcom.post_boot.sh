@@ -52,3 +52,9 @@ setprop persist.vendor.mmi.misc_dev_path $real_path
 if [ -f /sys/module/lowmemorykiller/parameters/oom_reaper ]; then
     echo 1 > /sys/module/lowmemorykiller/parameters/oom_reaper
 fi
+
+# ZRAM Parameters
+if [ -f /sys/block/zram0/disksize ]; then
+    mkswap /dev/block/zram0
+    swapon /dev/block/zram0 -p 32758
+fi
