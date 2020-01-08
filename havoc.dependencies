@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "github",
+    "repository": "PainKiller3/device_xiaomi_sdm845-common",
+    "target_path": "device/xiaomi/sdm845-common",
+    "branch": "ten"
+  },
+  {
+    "remote": "github",
+    "repository": "PainKiller3/vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch": "ten"
+  },
+  {
+    "remote": "github",
+    "repository": "Painkiller3/kernel_xiaomi_sdm845",
+    "target_path": "kernel/xiaomi/sdm845",
+    "branch": "ten"
+  }
+]
