@@ -26,7 +26,7 @@
     <bool name="config_automatic_brightness_available">true</bool>
 
     <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
-    <bool name="config_displayBlanksAfterDoze">true</bool>
+    <bool name="config_displayBlanksAfterDoze">false</bool>
 
     <!-- Whether to enable network location overlay which allows network
          location provider to be replaced by an app at run-time. When disabled,
