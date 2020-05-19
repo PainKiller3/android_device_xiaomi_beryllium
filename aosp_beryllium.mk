@@ -6,18 +6,28 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common Havoc stuff.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+# Inherit some common Evolution X stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := havoc_beryllium
+PRODUCT_NAME := aosp_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
 PRODUCT_MANUFACTURER := Xiaomi
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.havoc.maintainer=REIGNZ
+# Build Official
+CUSTOM_BUILD_TYPE := OFFICIAL
+EVO_DONATE_URL := https://www.paypal.me/akashk07
+EVO_MAINTAINER := Akash
+EVO_SUPPORT_URL := https://t.me/EvolutionXBeryllium
+
+# Boot Animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Gapps Config
+TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_WIFI_EXT := true
 
 BUILD_FINGERPRINT := "google/coral/coral:10/QQ2A.200501.001.B2/6352890:user/release-keys"
 
