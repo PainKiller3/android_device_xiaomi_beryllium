@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_beryllium.mk
+    $(LOCAL_DIR)/aosp_beryllium.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_beryllium-user \
-    havoc_beryllium-userdebug \
-    havoc_beryllium-eng
+    aosp_beryllium-user \
+    aosp_beryllium-userdebug \
+    aosp_beryllium-eng
