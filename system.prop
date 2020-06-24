@@ -8,3 +8,6 @@ ro.havoc.maintainer=Ninad Patil (REIGNZ3)
 
 # Recovery
 ro.recovery.ui.margin_height=87
+
+# Graphics
+ro.surface_flinger.has_HDR_display=true
