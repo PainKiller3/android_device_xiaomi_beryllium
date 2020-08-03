@@ -19,7 +19,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.havoc.maintainer=REIGNZ
 
-BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="beryllium-user 10 QKQ1.190828.002 V11.0.9.0.QEJMIXM release-keys" \
