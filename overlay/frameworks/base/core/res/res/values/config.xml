@@ -42,6 +42,10 @@
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
 
+    <!-- The maximum range of gamma adjustment possible using the screen
+         auto-brightness adjustment setting. -->
+     <fraction name="config_autoBrightnessAdjustmentMaxGamma">100.0%</fraction>
+
     <!-- User activity timeout: Maximum screen dim duration as a percentage of screen off timeout.
          This resource is similar to config_maximumScreenDimDuration but the maximum
          screen dim duration is defined as a ratio of the overall screen off timeout
@@ -54,6 +58,9 @@
          dim before the device goes to sleep.
     -->
     <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
+
+    <!-- Period of time in which to consider light samples in milliseconds. -->
+    <integer name="config_autoBrightnessAmbientLightHorizon">16000</integer>
 
     <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
          for debouncing the light sensor.  Different constants are used to debounce the light sensor
