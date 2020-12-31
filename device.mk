@@ -197,7 +197,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.xiaomi_beryllium
+    android.hardware.lights-service.xiaomi_beryllium
 
 # Media
 PRODUCT_PACKAGES += \
