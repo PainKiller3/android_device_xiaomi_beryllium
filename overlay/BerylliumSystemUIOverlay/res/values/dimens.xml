@@ -22,4 +22,10 @@
 
     <!-- the padding on the end of the statusbar -->
     <dimen name="status_bar_padding_end">12dp</dimen>
+
+    <!-- The starting padding for the clock in the status bar. -->
+    <dimen name="status_bar_clock_starting_padding">2.5dp</dimen>
+
+    <!-- Padding between signal cluster and battery icon -->
+    <dimen name="signal_cluster_battery_padding">4dp</dimen>
 </resources>
