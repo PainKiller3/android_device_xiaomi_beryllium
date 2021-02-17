@@ -30,4 +30,12 @@
     <!-- Margin on the right side of the system icon group on Keyguard. -->
     <dimen name="system_icons_keyguard_padding_end">12dp</dimen>
 
+    <!-- The starting padding for the clock in the status bar. -->
+    <dimen name="status_bar_clock_starting_padding">2.5dp</dimen>
+
+    <!-- End padding for left-aligned status bar clock -->
+    <dimen name="status_bar_left_clock_end_padding">2.5dp</dimen>
+
+    <!-- Padding between signal cluster and battery icon -->
+    <dimen name="signal_cluster_battery_padding">4dp</dimen>
 </resources>
