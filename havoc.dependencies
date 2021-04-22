@@ -1,0 +1,34 @@
+[
+  {
+    "repository": "android_device_xiaomi_sdm845-common",
+    "target_path": "device/xiaomi/sdm845-common",
+    "branch": "eleven"
+  },
+  {
+    "repository": "android_vendor_xiaomi_beryllium",
+    "target_path": "vendor/xiaomi/beryllium",
+    "branch": "eleven"
+  },
+  {
+    "repository": "android_vendor_xiaomi_sdm845-common",
+    "target_path": "vendor/xiaomi/sdm845-common",
+    "branch": "eleven"
+  },
+  {
+    "repository": "android_kernel_xiaomi_sdm845",
+    "target_path": "kernel/xiaomi/sdm845",
+    "branch": "eleven"
+  },
+  {
+    "repository": "gcc-arm64",
+    "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-elf",
+    "branch": "eleven",
+    "depth" : "1"
+  },
+  {
+    "repository": "gcc-arm",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi",
+    "branch": "eleven",
+    "depth" : "1"
+  }
+]

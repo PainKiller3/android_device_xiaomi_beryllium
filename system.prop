@@ -1,5 +1,10 @@
 # Camera
 persist.vendor.camera.perfcapture=1
 
+# Havoc Stuff
+ro.havoc.device.name=Xiaomi Poco F1
+ro.havoc.group.url=https://t.me/havoc_beryllium
+ro.havoc.maintainer=Ninad Patil (REIGNZ3)
+
 # Recovery
 ro.recovery.ui.margin_height=87
