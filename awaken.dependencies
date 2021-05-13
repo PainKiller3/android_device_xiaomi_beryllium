@@ -1,0 +1,31 @@
+[
+  {
+    "remote": "github",
+    "repository": "android_device_xiaomi_sdm845-common",
+    "target_path": "device/xiaomi/sdm845-common",
+    "branch": "12"
+  },
+  {
+    "remote": "github",
+    "repository": "PainKiller3/vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch": "twelve"
+  },
+  {
+    "remote": "github",
+    "repository": "Painkiller3/kernel_xiaomi_sdm845",
+    "target_path": "kernel/xiaomi/sdm845",
+    "branch": "twelve"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "lineage-19.0"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "varunhardgamer/trb_clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-custom"
+  }
+]
