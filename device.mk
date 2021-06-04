@@ -146,14 +146,14 @@ PRODUCT_PACKAGES += \
 
 # GNSS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@2.0.vendor
+    android.hardware.gnss@2.1.vendor
 
 # GPS
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/gps/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.0.vendor
+    android.hardware.health@2.1.vendor
 
 # Health
 PRODUCT_PACKAGES += \
