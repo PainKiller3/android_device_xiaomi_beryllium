@@ -61,6 +61,9 @@ on init
     chmod 0660 /dev/mi-camera-vendor2hal
     chmod 0660 /dev/mi-camera-hal2vendor
 
+    # Change permissions for /dev/diag
+    chmod 0666 /dev/diag
+
 on late-init
     # Start services for bootanim
     start surfaceflinger
