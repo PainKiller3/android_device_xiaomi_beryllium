@@ -28,4 +28,7 @@
 
     <!-- Padding between signal cluster and battery icon -->
     <dimen name="signal_cluster_battery_padding">4dp</dimen>
+
+    <!-- Height of the status bar header bar when on Keyguard -->
+    <dimen name="status_bar_header_height_keyguard">86.0px</dimen>
 </resources>
