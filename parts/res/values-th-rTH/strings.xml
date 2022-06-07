@@ -17,43 +17,82 @@
 -->
 <resources>
     <!-- Dirac settings -->
-    <string name="dirac_title">ตัวเพิ่มประสิทธิภาพเสียง Mi</string>
-    <string name="dirac_summary">เพิ่มคุณภาพเสียง</string>
+    <string name="dirac_enable">เปิดใช้งาน dirac</string>
+    <string name="dirac_title">Mi Sound Enhancer</string>
+    <string name="dirac_summary">ปรับคุณภาพเสียงให้เหมาะสม</string>
     <string name="dirac_headset_title">เลือกประเภทของหูฟัง</string>
-    <string name="dirac_preset_title">เลือกรายการที่ตั้งไว้</string>
+    <string name="dirac_preset_title">เลือกพรีเซ็ต</string>
+
     <!-- Dirac settings: Headset types -->
-    <string name="dirac_headset_default">ค่าเริ่มต้น</string>
-    <string name="dirac_headset_earbuds">หูฟัง Mi Earbuds</string>
-    <string name="dirac_headset_in_ear_2013">Mi In-Ear (2013)</string>
-    <string name="dirac_headset_piston_1">หูฟัง Mi Piston-1</string>
-    <string name="dirac_headset_general">หูฟังทั่วไป</string>
-    <string name="dirac_headset_general_inear">หูฟัง In-Ear ทั่วไป </string>
-    <string name="dirac_headset_piston_basic">หูฟังรุ่นธรรมดา</string>
-    <string name="dirac_headset_piston_2">หูฟัง Mi Piston-2</string>
-    <string name="dirac_headset_piston_standard">หูฟังรุ่นมาตรฐาน</string>
-    <string name="dirac_headset_headphone">เฮดโฟน Mi</string>
-    <string name="dirac_headset_piston_youth">หูฟังรุ่น Youth</string>
-    <string name="dirac_headset_piston_color">หูฟังรุ่นหลากสี</string>
-    <string name="dirac_headset_in_ear">หูฟัง Mi In-Ear</string>
-    <string name="dirac_headset_capsule">แคปซูล Mi</string>
-    <string name="dirac_headset_in_ear_pro">หูฟัง Mi In-Ear Pro</string>
-    <string name="dirac_headset_comfort">Mi Comfort</string>
-    <string name="dirac_headset_reduction_noise">Mi ลดเสียงรบกวน Type-C</string>
-    <string name="dirac_headset_cancelling">Mi ลดเสียงรบกวน 3.5mm</string>
-    <string name="dirac_headset_half_in_ear">Mi Half In-Ear</string>
-    <string name="dirac_headset_in_ear2">Mi In-Ear 2</string>
-    <string name="dirac_headset_earphone_basic">Mi Earphones Basic</string>
-    <string name="dirac_headset_earphone">หูฟัง Mi</string>
+    <string name="dirac_headset_earbuds">Mi เอียร์บัดส์</string>
+    <string name="dirac_headset_in_ear_2013">Mi อินเอียร์ (2013)</string>
+    <string name="dirac_headset_piston_1">Mi พิสตัน-1</string>
+    <string name="dirac_headset_general_inear">หูฟังอินเอียร์ทั่วไป</string>
+    <string name="dirac_headset_piston_basic">หูฟังรุ่นเบสิค</string>
+    <string name="dirac_headset_piston_2">Mi พิสตัน-2</string>
+    <string name="dirac_headset_piston_standard">หูฟังรุ่นสแตนดาร์ด</string>
+    <string name="dirac_headset_piston_youth">หูฟังรุ่นเยาท์</string>
+    <string name="dirac_headset_piston_color">หูฟังรุ่นคัลเลอร์</string>
+    <string name="dirac_headset_in_ear">Mi อินเอียร์</string>
+    <string name="dirac_headset_capsule">Mi แคปซูล</string>
+    <string name="dirac_headset_in_ear_pro">Mi อินเอียร์ โปร</string>
+    <string name="dirac_headset_comfort">Mi คอมฟอร์ต</string>
+    <string name="dirac_headset_reduction_noise">Mi หูฟังตัดเสียงรบกวน Type-C</string>
+    <string name="dirac_headset_cancelling">Mi หูฟังตัดเสียงรบกวน 3.5mm</string>
+    <string name="dirac_headset_half_in_ear">Mi ฮาร์ฟอินเอียร์</string>
+    <string name="dirac_headset_in_ear2">Mi อินเอียร์ 2</string>
+    <string name="dirac_headset_earphone_basic">Mi หูฟังเบสิค</string>
+    <string name="dirac_headset_earphone">Mi หูฟัง</string>
+    <string name="dirac_headset_ear_four">Mi หูฟังสี่ไดรฟ์เวอร์</string>
+    <string name="dirac_headset_piston_typec">Mi หูฟังอินเอียร์ (Type-C)</string>
+    <string name="dirac_headset_bluetooth_collar">Mi หูฟังบลูทูธคล้องคอ</string>
+    <string name="dirac_headset_bluetooth_linefree">Mi หูฟังบลูทูธ</string>
+    <string name="dirac_headset_redmi_earphones">Redmi หูฟัง</string>
+
     <!-- Dirac settings: Equalizer presets -->
     <string name="dirac_preset_default">ค่าเริ่มต้น</string>
-    <string name="dirac_preset_rock">ร็อค</string>
-    <string name="dirac_preset_jazz">แจ๊ส</string>
-    <string name="dirac_preset_pop">ป๊อป</string>
+    <string name="dirac_preset_rock">ร็อก</string>
+    <string name="dirac_preset_jazz">แจ๊ซ</string>
+    <string name="dirac_preset_pop">ป็อบ</string>
     <string name="dirac_preset_classical">คลาสสิค</string>
     <string name="dirac_preset_hiphop">ฮิปฮอป</string>
     <string name="dirac_preset_blues">บลูส์</string>
     <string name="dirac_preset_electronic">อิเล็กทรอนิกส์</string>
     <string name="dirac_preset_country">คันทรี่</string>
-    <string name="dirac_preset_dance">แด๊นซ์</string>
+    <string name="dirac_preset_dance">แดนซ์</string>
     <string name="dirac_preset_metal">เมทัล</string>
+    <string name="dirac_preset_bass_booster">บูสต์เบส</string>
+    <string name="dirac_preset_live">ไลฟ์</string>
+    <string name="dirac_preset_balanced">สมดุล</string>
+    <string name="dirac_preset_bass_reduction">ลดเบส</string>
+    <string name="dirac_preset_treble_reduction">ลดเสียงแหลม</string>
+    <string name="dirac_preset_soft_bass">ซอฟต์เบส</string>
+    <string name="dirac_preset_soft_treble">ซอฟต์เสียงแหลม</string>
+
+    <!-- Thermal profiles -->
+    <string name="thermal_title">โปรไฟล์เธอร์มอล</string>
+    <string name="thermal_summary">ปรับแต่งโปรไฟล์เธอร์มอลในแต่ละแอปเพื่อประสิทธิภาพสูงสุด</string>
+    <string name="thermal_default">ไม่มีการปรับใดๆ</string>
+    <string name="thermal_benchmark">ประสิทธิภาพ</string>
+    <string name="thermal_browser">เบราว์เซอร์</string>
+    <string name="thermal_camera">กล้อง</string>
+    <string name="thermal_dialer">โทรศัพท์</string>
+    <string name="thermal_gaming">เกมมิ่ง</string>
+    <string name="thermal_streaming">สตรีมมิ่ง</string>
+
+    <!-- Raise to wake strings-->
+    <string name="raise_to_wake_gesture_title">ยกเพื่อปลุก</string>
+    <string name="raise_to_wake_gesture_summary">ปลุกหน้าจอมือถือแทนที่การกระพริบแจ้งเตือน</string>
+
+    <!-- MiSound scenes -->
+    <string name="music_headset_scenario_intelligent">สมาร์ท</string>
+    <string name="music_headset_scenario_music">มิวสิค</string>
+    <string name="music_headset_scenario_select">เลือกซีน</string>
+    <string name="music_headset_scenario_video">วิดีโอ</string>
+    <string name="music_headset_scenario_vocal">ว๊อยซ์</string>
+
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">ทำความสะอาดลำโพง</string>
+    <string name="clear_speaker_summary">เล่นเสียงเป็นเวลา 30 วินาทีเพื่อทำความสะอาดลำโพง</string>
+    <string name="clear_speaker_description">เรียกใช้คุณสมบัตินี้ 1-2 ครั้ง หากพบว่าลำโพงของคุณมีฝุ่นเกาะเล็กน้อยและเปิดระบบเสียงของสื่อให้สุด \n\nหากลำโพงถูกบล็อกอย่างหนักให้เรียกใช้ฟีเจอร์นี้ 2-5 ครั้งในขณะที่เขย่าอุปกรณ์ไปด้วย โดยให้ลำโพงคว่ำหน้าลง \n\nคำเตือน: โปรดตรวจสอบให้แน่ใจว่าคุณไม่ได้เสียบหูฟัง</string>
 </resources>

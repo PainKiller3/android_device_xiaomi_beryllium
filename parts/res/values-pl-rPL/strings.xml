@@ -17,43 +17,82 @@
 -->
 <resources>
     <!-- Dirac settings -->
-    <string name="dirac_title">Ulepszanie dźwięku Mi</string>
-    <string name="dirac_summary">Optymalizuj jakość dźwięku</string>
-    <string name="dirac_headset_title">Typ słuchawek</string>
-    <string name="dirac_preset_title">Wybierz konfigurację</string>
+    <string name="dirac_enable">Włącz Dirac</string>
+    <string name="dirac_title">Wzmacniacz dźwięku</string>
+    <string name="dirac_summary">Optymalizuje jakość dźwięku</string>
+    <string name="dirac_headset_title">Wybierz typ słuchawek</string>
+    <string name="dirac_preset_title">Wybierz predefiniowane ustawienie</string>
+
     <!-- Dirac settings: Headset types -->
-    <string name="dirac_headset_default">Domyślny</string>
-    <string name="dirac_headset_earbuds">Douszne Mi</string>
-    <string name="dirac_headset_in_ear_2013">Mi dokanałowe (2013)</string>
-    <string name="dirac_headset_piston_1">Mi Piston v1</string>
-    <string name="dirac_headset_general">Douszne</string>
-    <string name="dirac_headset_general_inear">Dokanałowe</string>
-    <string name="dirac_headset_piston_basic">Mi Piston Basic</string>
-    <string name="dirac_headset_piston_2">Mi Piston v2</string>
-    <string name="dirac_headset_piston_standard">Mi Piston v3</string>
-    <string name="dirac_headset_headphone">Słuchawki Mi</string>
+    <string name="dirac_headset_earbuds">Mi Earbuds</string>
+    <string name="dirac_headset_in_ear_2013">Mi In-Ear (2013)</string>
+    <string name="dirac_headset_piston_1">Mi Piston-1</string>
+    <string name="dirac_headset_general_inear">General In-Ear</string>
+    <string name="dirac_headset_piston_basic">Basic Edition</string>
+    <string name="dirac_headset_piston_2">Mi Piston-2</string>
+    <string name="dirac_headset_piston_standard">Standard Edition</string>
     <string name="dirac_headset_piston_youth">Youth Edition</string>
-    <string name="dirac_headset_piston_color">Edycja kolorowa</string>
-    <string name="dirac_headset_in_ear">Mi Dokanałowe</string>
+    <string name="dirac_headset_piston_color">Color Edition</string>
+    <string name="dirac_headset_in_ear">Mi In-Ear</string>
     <string name="dirac_headset_capsule">Mi Capsule</string>
-    <string name="dirac_headset_in_ear_pro">Mi Dokanałowe Pro</string>
+    <string name="dirac_headset_in_ear_pro">Mi In-Ear Pro</string>
     <string name="dirac_headset_comfort">Mi Comfort</string>
-    <string name="dirac_headset_reduction_noise">Mi z redukcją szumów (Typ-C)</string>
-    <string name="dirac_headset_cancelling">Mi z redukcją szumów (3.5mm)</string>
-    <string name="dirac_headset_half_in_ear">Mi częściowo dokanałowe</string>
-    <string name="dirac_headset_in_ear2">Mi dokanałowe 2</string>
-    <string name="dirac_headset_earphone_basic">Słuchawki douszne Mi Basic</string>
-    <string name="dirac_headset_earphone">Słuchawki douszne Mi</string>
+    <string name="dirac_headset_reduction_noise">Mi Noise Cancelling Type-C</string>
+    <string name="dirac_headset_cancelling">Mi Noise Cancelling 3.5mm</string>
+    <string name="dirac_headset_half_in_ear">Mi Half In-Ear</string>
+    <string name="dirac_headset_in_ear2">Mi In-Ear 2</string>
+    <string name="dirac_headset_earphone_basic">Mi Earphones Basic</string>
+    <string name="dirac_headset_earphone">Mi Earphones</string>
+    <string name="dirac_headset_ear_four">Mi Quadruple Driver Earphones</string>
+    <string name="dirac_headset_piston_typec">Mi In-Ear Headphones (Type-C)</string>
+    <string name="dirac_headset_bluetooth_collar">Mi Bluetooth Neckband</string>
+    <string name="dirac_headset_bluetooth_linefree">Mi Bluetooth Earphones</string>
+    <string name="dirac_headset_redmi_earphones">Redmi Earphones</string>
+
     <!-- Dirac settings: Equalizer presets -->
     <string name="dirac_preset_default">Domyślny</string>
     <string name="dirac_preset_rock">Rock</string>
     <string name="dirac_preset_jazz">Jazz</string>
     <string name="dirac_preset_pop">Pop</string>
-    <string name="dirac_preset_classical">Muzyka poważna</string>
+    <string name="dirac_preset_classical">Klasyczny</string>
     <string name="dirac_preset_hiphop">Hip Hop</string>
     <string name="dirac_preset_blues">Blues</string>
-    <string name="dirac_preset_electronic">Elektroniczna</string>
+    <string name="dirac_preset_electronic">Elektroniczny</string>
     <string name="dirac_preset_country">Country</string>
     <string name="dirac_preset_dance">Taniec</string>
     <string name="dirac_preset_metal">Metal</string>
+    <string name="dirac_preset_bass_booster">Podbicie basu</string>
+    <string name="dirac_preset_live">Na żywo</string>
+    <string name="dirac_preset_balanced">Zbalansowany</string>
+    <string name="dirac_preset_bass_reduction">Redukcja basu</string>
+    <string name="dirac_preset_treble_reduction">Redukcja wysokich tonów</string>
+    <string name="dirac_preset_soft_bass">Miękki bas</string>
+    <string name="dirac_preset_soft_treble">Miękkie wysokie tony</string>
+
+    <!-- Thermal profiles -->
+    <string name="thermal_title">Profile termiczne</string>
+    <string name="thermal_summary">Dostosuj profile termiczne dla poszczególnych aplikacji dla optymalnej wydajności</string>
+    <string name="thermal_default">Brak optymalizacji</string>
+    <string name="thermal_benchmark">Wydajność</string>
+    <string name="thermal_browser">Przeglądarka</string>
+    <string name="thermal_camera">Aparat</string>
+    <string name="thermal_dialer">Telefon</string>
+    <string name="thermal_gaming">Gra</string>
+    <string name="thermal_streaming">Przesyłanie strumieniowe</string>
+
+    <!-- Raise to wake strings-->
+    <string name="raise_to_wake_gesture_title">Podnieś, by wybudzić</string>
+    <string name="raise_to_wake_gesture_summary">Wybudź urządzenie zamiast pulsujących powiadomień</string>
+
+    <!-- MiSound scenes -->
+    <string name="music_headset_scenario_intelligent">Inteligentny</string>
+    <string name="music_headset_scenario_music">Muzyka</string>
+    <string name="music_headset_scenario_select">Wybierz scenę</string>
+    <string name="music_headset_scenario_video">Wideo</string>
+    <string name="music_headset_scenario_vocal">Głos</string>
+
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Wyczyść głośnik</string>
+    <string name="clear_speaker_summary">Odtwórz 30 sekundowy dźwięk, aby oczyścić głośnik</string>
+    <string name="clear_speaker_description">Uruchom tę funkcję raz lub dwa razy, jeśli zauważysz, że głośnik jest lekko przysłonięty kurzem. Ustaw głośność multimediów na maksimum.\n\nJeśli głośnik jest mocno zablokowany, uruchom tę funkcję 2-5 razy, potrząsając urządzeniem z głośnikiem skierowanym w dół.\n\nOSTRZEŻENIE: Upewnij się, że wszystkie słuchawki są odłączone.</string>
 </resources>
