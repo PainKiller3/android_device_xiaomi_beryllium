@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "github",
+    "repository": "PainKiller3/vendor_xiaomi_beryllium",
+    "target_path": "vendor/xiaomi/beryllium",
+    "branch": "thirteen"
+  },
+  {
+    "remote": "github",
+    "repository": "Painkiller3/kernel_xiaomi_sdm845",
+    "target_path": "kernel/xiaomi/sdm845",
+    "branch": "thirteen"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "dakkshesh07/neutron-clang",
+    "clone-depth": "1",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-custom"
+  }
+]
