@@ -344,11 +344,11 @@ vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|b17a82a9740832bd686c3d4c4e36d0e
 vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so|07bf28004086b972367c44703bd0247d7a78faf4
 vendor/lib64/vendor.qti.latency@2.0.so|1589280034898a0ab3052234ef90b7c674d5be5b
 
-# Configstore
-vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
-vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
-vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
+# Configstore - from PNX - RKQ1.200906.002
+vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|8a64779e1a5df5153f10871cf23c65c3f7f94ae7
+vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede0250585a44b01d351bbc301d7a13cc3d783d
+vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|3e517ec6b4603c6c1f5945b3f131aa69bccb0b08
+vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|eb1a99915765fca7add8de87d7c4ef9bf031e155
 
 # Display (HDR) - from PNX - RKQ1.200906.002
 vendor/lib/libhdr_tm.so|1e8a647523db0a09c9587a77f1f7b132a03c2354
@@ -420,48 +420,49 @@ vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|3a407eb9cfe4bda97d793d0b671389aee7afe48f
 vendor/lib64/libdpmqmihal.so|2656dc27e2da38a482d639701647520d259ff50b
 
-# DRM
-vendor/bin/qseecomd
-vendor/bin/seemp_healthd
-vendor/etc/init/qseecomd.rc
-vendor/lib/libGPreqcancel.so
-vendor/lib/libGPreqcancel_svc.so
-vendor/lib/libQSEEComAPI.so
-vendor/lib/libSecureUILib.so
-vendor/lib/libStDrvInt.so
-vendor/lib/libcppf.so
-vendor/lib/libdrmfs.so
-vendor/lib/libdrmtime.so
-vendor/lib/libqisl.so
-vendor/lib/librpmb.so
-vendor/lib/libsecureui.so
-vendor/lib/libsecureui_svcsock.so
-vendor/lib/libspl.so
-vendor/lib/libssd.so
-vendor/lib/libtzdrmgenprov.so
-vendor/lib64/libGPreqcancel.so
-vendor/lib64/libGPreqcancel_svc.so
-vendor/lib64/libQSEEComAPI.so
-vendor/lib64/libSecureUILib.so
-vendor/lib64/libStDrvInt.so
-vendor/lib64/libcpion.so
-vendor/lib64/libdrmfs.so
-vendor/lib64/libdrmtime.so
-vendor/lib64/libqisl.so
-vendor/lib64/librpmb.so
-vendor/lib64/libsecureui.so
-vendor/lib64/libsecureui_svcsock.so
-vendor/lib64/libspl.so
-vendor/lib64/libssd.so
-vendor/lib64/libtzdrmgenprov.so
+# DRM - from PNX - RKQ1.200906.002
+vendor/bin/qseecomd|a90d3dc549ab75b8a99db29683b05ce4af413bf5
+vendor/etc/init/qseecomd.rc|9b6f7a407d49a5a0e6144a022273e8f46fc76b6a
+vendor/lib/libGPreqcancel.so|0cd65c695848c1003a7659d0810517762971e708
+vendor/lib/libGPreqcancel_svc.so|d842dacafdb2998f1249cd7271619b5e9cc50565
+vendor/lib/libQSEEComAPI.so|29d739b5374b0569b22db19a4cc0a37e88f6d3f2
+vendor/lib/libSecureUILib.so|0d719c59c6359b1adb15b3aebde7943c1a9e1368
+vendor/lib/libStDrvInt.so|daea5be20f666076d0f82262a9a8b46e4cc51158
+vendor/lib/libcppf.so|845189e615c9649a18a7c8398f1ec8d0a724c4b6
+vendor/lib/libdrmfs.so|871462621b16b7247a9443797b9b9dac8ab24619
+vendor/lib/libdrmtime.so|1d3b7fe6fa71a066dd98a0b14de6478bc6a16ccb
+vendor/lib/libops.so|a1d4a06c64ea0782f2f61ce8badd14238325d72f
+vendor/lib/libqisl.so|8da3650f2c43fd1588ea24cdf8b51ae337dc824d
+vendor/lib/librpmb.so|95a388eaff556447fa7b374cde5768bd3d9915c2
+vendor/lib/libsecureui.so|13162732b9990a9f8bdc26566403a53e357807c9
+vendor/lib/libsecureui_svcsock.so|fd78cdbe3f2e2349b07872cc1116f90a519db054
+vendor/lib/libssd.so|020e0fa5d6ecf28125911d3bad4519556d2d9b31
+vendor/lib/libtzdrmgenprov.so|801f47e12d529189b2d30dd4f373ba267b250859
+vendor/lib64/libGPreqcancel.so|cef7983d5aceb03b4c422731c838ead1a8f3fed4
+vendor/lib64/libGPreqcancel_svc.so|5e81c342ea74732a446d900e61dde97c4d297e37
+vendor/lib64/libQSEEComAPI.so|3b2ca26bda9fd3531ee3c6f7e5d869e77291727d
+vendor/lib64/libSecureUILib.so|107d2b82a9bba31bbb59efab7be4f3f2692062ff
+vendor/lib64/libStDrvInt.so|a166aeaeaeb70f12bc607ff7852e039ee5cb004f
+vendor/lib64/libcpion.so|34c86483f05f74040291dae312e88ad861c39da6
+vendor/lib64/libdrmfs.so|740c6343ea5010fd59ff23c8564d9a6066a5f46a
+vendor/lib64/libdrmtime.so|9ce64baa8812e7c1ec8393408cdc918747c051e0
+vendor/lib64/libops.so|fc77360638cc155f6396994825481c4afa77a75b
+vendor/lib64/libqisl.so|529d7e20bb33147fe3404c1a58d266e49228046a
+vendor/lib64/librpmb.so|fe965bdb4c1630dd1985861e65a2fafec355715a
+vendor/lib64/libsecureui.so|39e1b811126765e119daf891420d6f6a5dc47765
+vendor/lib64/libsecureui_svcsock.so|2232f56927964f10d41868919d94711930d50ed0
+vendor/lib64/libssd.so|aebe668e327fcf30bf0f2afacfdc3cc469043e5e
+vendor/lib64/libtzdrmgenprov.so|ff8f9eadd70b0ae366a68848c9c71d37a8b75317
 
-# ESE
-vendor/bin/hw/vendor.qti.esepowermanager@1.0-service
-vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc
-vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so
-vendor/lib/vendor.qti.esepowermanager@1.0.so
-vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so
-vendor/lib64/vendor.qti.esepowermanager@1.0.so
+# ESE - from PNX - RKQ1.200906.002
+vendor/bin/hw/vendor.qti.esepowermanager@1.1-service|0de9474912b1206cfe17459afca9ebb28bdd2468
+vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc|3c024c7135ec3dd8658624509ee61396a74f1ede
+vendor/lib/hw/vendor.qti.esepowermanager@1.1-impl.so|7f5adb335d12659d76fa13318b635e30ee67da6e
+vendor/lib/vendor.qti.esepowermanager@1.0.so|94f25d4c70dac7903000f4ea35af148377665ca6
+vendor/lib/vendor.qti.esepowermanager@1.1.so|f994ed607e87d2a3ad020edb38c05cea356d92ef
+vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|17f648402c874e4f981caadd91438a525089e35d
+vendor/lib64/vendor.qti.esepowermanager@1.0.so|a114629809e67015a14e5e367c6fb374adaafbc2
+vendor/lib64/vendor.qti.esepowermanager@1.1.so|f111cf42439d28fe88d9ebf6b6a1c44b729a3194
 
 # Fingerprint
 vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.sdm845.so
@@ -806,14 +807,15 @@ vendor/lib64/liblistenjni.so
 vendor/lib64/liblistensoundmodel2.so
 vendor/lib64/libmulawdec.so
 
-# Neural networks
-vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti
-vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc
-vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
-vendor/lib64/libhexagon_nn_stub.so
-vendor/lib64/unnhal-acc-adreno.so
-vendor/lib64/unnhal-acc-common.so
-vendor/lib64/unnhal-acc-hvx.so
+# Neural networks - from PNX - RKQ1.200906.002
+vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti|2f4c5509649e72b1085c9eabd92a2b0b32090c0e
+vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc|4b7f2c5f914f3eef38f19936c0a06efc09b5b28c
+vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml|ac07e83ba7c2a87a2f216f04ec84df4539ea8507
+vendor/lib/rfsa/adsp/libhexagon_nn_skel.so|43ad92a5fdd5a2f9abd631924c820ee2dd8702cf
+vendor/lib64/libhexagon_nn_stub.so|a3676113882842116279fe902af00e630ec1778c
+vendor/lib64/unnhal-acc-adreno.so|7ad6daa9bf39c5a199b2afb1bd60c1ae53ffbb06
+vendor/lib64/unnhal-acc-common.so|32fdec585f2d710e37ffe327894aec6a7ea220eb
+vendor/lib64/unnhal-acc-hvx.so|3e44efdca5e1c20ca4bf00c6a5f19fc1863c9830
 
 # OMX - from PNX - RKQ1.200906.002
 vendor/lib/libAlacSwDec.so|e49062c9fd9377e8264bf8f7901394653b9f02dc
@@ -858,13 +860,13 @@ vendor/lib64/libOmxVpp.so|a87440c7838b6f03726d97a4a52b695bb4c6e8f8
 vendor/lib64/libOmxWmaDec.so|7b2a714a74fea03a403a7d0edef61db2f70d7d4e
 vendor/lib64/libswvdec.so|ae1f55c7094e2a006e28dcfb0f2b9c32634fb849
 
-# Peripheral manager
-vendor/bin/pm-proxy
-vendor/bin/pm-service
-vendor/lib/libperipheral_client.so
-vendor/lib/libspcom.so
-vendor/lib64/libperipheral_client.so
-vendor/lib64/libspcom.so
+# Peripheral manager - from PNX - RKQ1.200906.002
+vendor/bin/pm-proxy|832cbe7995de8177a2ef5bdf3f145131dfe828d4
+vendor/bin/pm-service|28f5e8d8f98c8e97941f514bafdc0b369cc5b600
+vendor/lib/libperipheral_client.so|4f4700270730d4043580a1e76566fd0124b01e18
+vendor/lib/libspcom.so|acec0b9bd1f9e31b3022f14975b0cc5566e4bb4a
+vendor/lib64/libperipheral_client.so|8cb65f4c93719767048dd7b1b845473fe6074ff7
+vendor/lib64/libspcom.so|1e82b29e1c128c6aef28f9f632f5cd0e04f5c3d9
 
 # Power-off alarm - from caymanslm - SKQ1.211103.001
 product/app/PowerOffAlarm/PowerOffAlarm.apk:system_ext/app/PowerOffAlarm/PowerOffAlarm.apk|f0a86fc11b38c059912303857bc4c79155430bcc
@@ -1088,43 +1090,43 @@ vendor/etc/sensors/config/tmd2725.json
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
 
-# Snapdragon Computer Vision Engine
-vendor/etc/scve/facereco/gModel.dat
-vendor/lib/rfsa/adsp/libfastcvadsp.so
-vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
-vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
-vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
-vendor/lib/rfsa/adsp/libscveT2T_skel.so
-vendor/lib/libfastcvdsp_stub.so
-vendor/lib/libfastcvopt.so
-vendor/lib/libscveBlobDescriptor.so
-vendor/lib/libscveBlobDescriptor_stub.so
-vendor/lib/libscveCommon.so
-vendor/lib/libscveCommon_stub.so
-vendor/lib/libscveFaceLandmarks.so
-vendor/lib/libscveFaceRecognition.so
-vendor/lib/libscveObjectSegmentation.so
-vendor/lib/libscveObjectSegmentation_stub.so
-vendor/lib/libscveObjectTracker.so
-vendor/lib/libscveObjectTracker_stub.so
-vendor/lib/libscvePanorama.so
-vendor/lib/libscvePanorama_lite.so
-vendor/lib/libscveScan3D.so
-vendor/lib64/libfastcvdsp_stub.so
-vendor/lib64/libfastcvopt.so
-vendor/lib64/libscveBlobDescriptor.so
-vendor/lib64/libscveBlobDescriptor_stub.so
-vendor/lib64/libscveCommon.so
-vendor/lib64/libscveCommon_stub.so
-vendor/lib64/libscveFaceLandmarks.so
-vendor/lib64/libscveFaceRecognition.so
-vendor/lib64/libscveObjectSegmentation.so
-vendor/lib64/libscveObjectSegmentation_stub.so
-vendor/lib64/libscveObjectTracker.so
-vendor/lib64/libscveObjectTracker_stub.so
-vendor/lib64/libscvePanorama.so
-vendor/lib64/libscvePanorama_lite.so
-vendor/lib64/libscveScan3D.so
+# Snapdragon Computer Vision Engine - from PNX - RKQ1.200906.002
+vendor/etc/scve/facereco/gModel.dat|447e5e3fefe8bcf36db0f7a8595c63fb326879ba
+vendor/lib/rfsa/adsp/libfastcvadsp.so|4a938b68df77b3611b97abaabf30088c1a69b81e
+vendor/lib/rfsa/adsp/libfastcvdsp_skel.so|5904dd945651bf21a3cda372e77cd8cedfdb3f27
+vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so|637e3c05ff05fb62ff9eede4ba394cd8f1874e18
+vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|44ee517f73908376a226f02a1ecd7ab22e5ae6ca
+vendor/lib/rfsa/adsp/libscveT2T_skel.so|378a152d7683e55375ec7a06eabe796c95b90c98
+vendor/lib/libfastcvdsp_stub.so|6ccfd797a035075db44aaf288a87d1eb041288b7
+vendor/lib/libfastcvopt.so|6c2c1c72b99428aa6e76660fe4ccd2bca6517c48
+vendor/lib/libscveBlobDescriptor.so|ee45670c33ff150ad8863eb81ac6eae130f75236
+vendor/lib/libscveBlobDescriptor_stub.so|6a67382a5df168279738647a95c7f0ab864c5cc3
+vendor/lib/libscveCommon.so|c5b1f38d06b51573043a8ba943d36fdf70875f39
+vendor/lib/libscveCommon_stub.so|b3915136fe161dbe9aed286e5553f74606d40353
+vendor/lib/libscveFaceLandmarks.so|d1ba20425666fc52a3831f24fb82acce3a5761b2
+vendor/lib/libscveFaceRecognition.so|58d4069d250ec214483fc660df05da3fc1816886
+vendor/lib/libscveObjectSegmentation.so|2d29fa5046750c21d42cf53de93bd42ae1c8013e
+vendor/lib/libscveObjectSegmentation_stub.so|c788a5f687b689c3cadd155f4e44e934a890a6ff
+vendor/lib/libscveObjectTracker.so|e661ea62b3ea2d817f5d9db1f8198c21496d9656
+vendor/lib/libscveObjectTracker_stub.so|67a418d42e504945f407dbd92fab4b313230c8ef
+vendor/lib/libscvePanorama.so|af881ba79ff195931d721810c3b57cdb8b61065b
+vendor/lib/libscvePanorama_lite.so|8f3543a2000d5432748157cd772cac714274c53f
+vendor/lib/libscveScan3D.so|cb893cdbd865d28fc873012ff139cffc3ea58431
+vendor/lib64/libfastcvdsp_stub.so|de764c199026839848cdc803ed5cb2d8a51ad9b9
+vendor/lib64/libfastcvopt.so|dcbd38864009f985e98f8eaea10bb2658385995a
+vendor/lib64/libscveBlobDescriptor.so|afac314d971d53ff7eac4fca305cdf372a7c94b3
+vendor/lib64/libscveBlobDescriptor_stub.so|1ef52c8d21c6c76344d5360059e039bcae9f66d3
+vendor/lib64/libscveCommon.so|1b68d8220632d3dacf55ee78b4f4629c68e501d2
+vendor/lib64/libscveCommon_stub.so|3b69ead7cb6efb63d00794a098170d94ccdb3a1d
+vendor/lib64/libscveFaceLandmarks.so|76268f76716460eacc311e42fe08b0a8cb814f28
+vendor/lib64/libscveFaceRecognition.so|a561fc6431d411c0a7620ecbbf21ca2c65704c69
+vendor/lib64/libscveObjectSegmentation.so|d5a8b4958ee1809567fd839713e9412617312e24
+vendor/lib64/libscveObjectSegmentation_stub.so|ec8d0288efbff88aae301061c9228a76994d695e
+vendor/lib64/libscveObjectTracker.so|86f9e82c6d937df04d56d47c1471525f92281913
+vendor/lib64/libscveObjectTracker_stub.so|a5fdf3100b012c34f7b5c3974805c204111835fd
+vendor/lib64/libscvePanorama.so|93b5fd54a56ffe48d98fa37b2e7bb5e9a3c1a998
+vendor/lib64/libscvePanorama_lite.so|c49017ad2072037480dbb61895b2d66aadf4e8a0
+vendor/lib64/libscveScan3D.so|27abfa80873e03e506015a8955f8887411bacc7f
 
 # Soter
 vendor/app/SoterService/SoterService.apk
@@ -1152,32 +1154,32 @@ vendor/bin/thermal-engine
 vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
 
-# Time services
-vendor/app/TimeService/TimeService.apk
-vendor/bin/time_daemon
-vendor/etc/init/init.time_daemon.rc
-vendor/lib/libtime_genoff.so
-vendor/lib64/libtime_genoff.so
+# Time services - from PNX - RKQ1.200906.002
+vendor/app/TimeService/TimeService.apk|2e5301dbe5f494c90f602577478f59e0452506b8
+vendor/bin/time_daemon|e62d164b8c8b30743837896d4c5e8bca39b364e6
+vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
+vendor/lib/libtime_genoff.so|9f1e0fd1180207b3df81aa65c319b0d5a467d74c
+vendor/lib64/libtime_genoff.so|3f57de1aeb7aa113a0a579cebed85ab4405b9b49
 
-# Trusted Execution Environment connector
-vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
-vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
-vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
-vendor/lib/libGPQTEEC_vendor.so
-vendor/lib/libGPTEE_vendor.so
-vendor/lib/libQTEEConnector_vendor.so
-vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so
-vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
-vendor/lib64/libGPQTEEC_vendor.so
-vendor/lib64/libGPTEE_vendor.so
-vendor/lib64/libQTEEConnector_vendor.so
-vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
+# Trusted Execution Environment connector - from PNX - RKQ1.200906.002
+vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|f8dc88c7166ffc2c1d997e7d5f16a8eb69c37cfc
+vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|c966350ee67d3a7c73ca7184e3725264025d16f5
+vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|51c91307f88ea32af97478e7d6ff35f604963412
+vendor/lib/libGPQTEEC_vendor.so|5578cf76650057158a5ef118b4b75f0549af64cb
+vendor/lib/libGPTEE_vendor.so|ec4e64f998c4437318a94acacf266748c20f1346
+vendor/lib/libQTEEConnector_vendor.so|e7235407c52fed215d089884c8c9b6db9b5a6bae
+vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so|19dca9b4ee8f90339923902ecfc93545ca9b0eca
+vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|dd9d89e2b85b972e0e4c744d81da0f548ecb76cf
+vendor/lib64/libGPQTEEC_vendor.so|258aacbaa65c588c7c41860263c2db584437f189
+vendor/lib64/libGPTEE_vendor.so|a8896a022e2b977997a40be9c584ff778d25c0f9
+vendor/lib64/libQTEEConnector_vendor.so|62d8993f51e0d4a0c4d6ae2645512ddfc76577f3
+vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|29130d7b0050885a6b455390a02a8615563403c4
 
-# Trusted User Interface
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
-vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
+# Trusted User Interface - from PNX - RKQ1.200906.002
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|e8d97981d09a4e34907d13bcbbd10f03572c9218
+vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|37a9af9fbdf5e3ec24129037d6f2fc16317ade23
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|960561ba01e28777e099294fb0a9a749e2b2a775
 
 # VPP - from PNX - RKQ1.200906.002
 vendor/bin/vppservice|555301b19a86374900159423c88efd7bd9cea2f9
@@ -1194,12 +1196,13 @@ vendor/lib64/libvpplibrary.so|3cdb980f51d0c0eecdb878eb869102c038b2f803
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so|f7769685d9c0c74f8c8419db028a5d5c3f65a9da
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so|ca1906012d0ab6dc9048aa49703833512308e6cf
 
-# Widevine DRM
-vendor/bin/hw/android.hardware.drm@1.2-service.widevine
-vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
-vendor/lib/mediadrm/libwvdrmengine.so
-vendor/lib64/mediadrm/libwvdrmengine.so
-vendor/lib64/libwvhidl.so
+# Widevine DRM - from PNX - RKQ1.200906.002
+vendor/bin/hw/android.hardware.drm@1.3-service.widevine|92e4797cb000e86ba74fba9da2c014d7ec8fa1a6
+vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|c35e1a6f9a6faff19064a81e07c4be82ceaf4bb5
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
+vendor/lib/mediadrm/libwvdrmengine.so|0363a398d49518d0442df335e8cb7f19741dec9d
+vendor/lib64/mediadrm/libwvdrmengine.so|f25fe9c6038fb99b0308998e0a8dba3b7c32fa50
+vendor/lib64/libwvhidl.so|f32257498c35e1336b48a03463f8c8cea7df7b18
 
 # Widevine DRM L1 support
 vendor/lib/liboemcrypto.so
