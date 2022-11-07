@@ -232,11 +232,16 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.2.vendor
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
-
 PRODUCT_PACKAGES += \
-    NoCutoutOverlay
+    BerylliumCarrierConfigOverlay \
+    BerylliumFrameworksOverlay \
+    BerylliumNoCutoutOverlay \
+    BerylliumSettingsOverlay \
+    BerylliumSettingsProviderOverlay \
+    BerylliumSystemUIOverlay \
+    BerylliumTelephonyOverlay \
+    TetheringConfigOverlay \
+    WifiOverlay
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
@@ -360,10 +365,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
-# Tethering
-PRODUCT_PACKAGES += \
-    TetheringConfigOverlay
-
 # Treble
 PRODUCT_USE_VNDK_OVERRIDE := true
 
@@ -385,7 +386,6 @@ PRODUCT_PACKAGES += \
     hostapd \
     libwifi-hal-qcom \
     libwpa_client \
-    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
 
