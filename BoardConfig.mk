@@ -49,6 +49,7 @@ BOARD_HAVE_QCOM_FM := true
 
 # Graphics
 TARGET_USES_GRALLOC1 := true
+TARGET_USES_GRALLOC4 := true
 TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
 
